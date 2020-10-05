@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Dashboard" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox HorizontalAlignment="Center" Height="219" Margin="296,240,223,0" TextWrapping="Wrap" Text="This is not the dashbooard" VerticalAlignment="Top" Width="753" FontSize="60" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Center" Height="219" Margin="296,240,223,0" TextWrapping="Wrap" Text="This is actually the dashbooard" VerticalAlignment="Top" Width="753" FontSize="60" FontWeight="Bold"/>
 
     </Grid>
 </Window>
