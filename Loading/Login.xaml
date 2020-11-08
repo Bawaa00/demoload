@@ -149,6 +149,9 @@
                     <ImageBrush ImageSource="images.png"/>
                 </Rectangle.Fill>
             </Rectangle>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="49,344,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="184,344,0,0" VerticalAlignment="Top" Width="76"/>
+
 
         </Grid>
         <Button x:Name="btn_prcd" Content="Proceed" Grid.Column="2" HorizontalAlignment="Left" Margin="123,581.06,0,0" VerticalAlignment="Top" Width="75" Background="#FF6034F7" Foreground="White" FontFamily="Microsoft JhengHei" FontSize="18" Visibility="Hidden" Click="btn_prcd_Click"/>
