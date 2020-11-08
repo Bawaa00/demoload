@@ -87,9 +87,6 @@
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txt_user">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="txt_pass">
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="btn_prcd">
                 <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
@@ -144,9 +141,8 @@
                 </Path.RenderTransform>
             </Path>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,24.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Bauhaus 93" Width="117.95" Height="140.2"><Run Foreground="White" Text="Login"/><LineBreak/><Run Foreground="White"/></TextBlock>
-            <TextBox x:Name="txt_user" HorizontalAlignment="Left" Height="33.5" Margin="47,152.5,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="372" FontSize="22" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" TextChanged="txt_user_TextChanged"/>
+            <TextBox x:Name="txt_user" HorizontalAlignment="Left" Height="33.5" Margin="47,152.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" FontSize="22" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" TextChanged="txt_user_TextChanged"/>
             <Path Data="M44,205.5 L416,205.5" Fill="#FFE6E6F3" HorizontalAlignment="Left" Height="1" Margin="47,207.5,0,0" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="373"/>
-            <TextBox x:Name="txt_pass" HorizontalAlignment="Left" Height="38" Margin="49,241.5,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="372" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" GotFocus="txt_pass_GotFocus"/>
             <Path Data="M44,282.5 L417,282.5" Fill="#FF4949FD" HorizontalAlignment="Left" Height="1" Margin="47,284.5,0,0" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="374"/>
             <Rectangle x:Name="rectangle1" HorizontalAlignment="Left" Height="51" Margin="338,350,0,0" Stroke="Black" VerticalAlignment="Top" Width="46.5" d:IsHidden="True">
                 <Rectangle.Fill>
@@ -155,6 +151,7 @@
             </Rectangle>
             <Button Content="Button" HorizontalAlignment="Left" Margin="49,344,0,0" VerticalAlignment="Top" Width="75"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="184,344,0,0" VerticalAlignment="Top" Width="76"/>
+
 
         </Grid>
         <Button x:Name="btn_prcd" Content="Proceed" Grid.Column="2" HorizontalAlignment="Left" Margin="123,581.06,0,0" VerticalAlignment="Top" Width="75" Background="#FF6034F7" Foreground="White" FontFamily="Microsoft JhengHei" FontSize="18" Visibility="Hidden" Click="btn_prcd_Click"/>
